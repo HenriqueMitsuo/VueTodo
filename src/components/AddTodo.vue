@@ -22,7 +22,7 @@ export default {
             e.preventDefault();
             if(this.title !== ''){
                 const newTodo = {
-                    id: uuid.v4(),
+                    // id: uuid.v4(),
                     title: this.title,
                     completed: false
                 }
